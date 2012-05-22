@@ -1,0 +1,10 @@
+2012/05/22 11:17:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index-test.php".' in /home/fidel/repositories/ICROMSMAIL/code/framework/yii-1.1.10.r3566/framework/web/CController.php:484
+Stack trace:
+#0 /home/fidel/repositories/ICROMSMAIL/code/framework/yii-1.1.10.r3566/framework/web/CController.php(271): CController->missingAction('index-test.php')
+#1 /home/fidel/repositories/ICROMSMAIL/code/framework/yii-1.1.10.r3566/framework/web/CWebApplication.php(276): CController->run('index-test.php')
+#2 /home/fidel/repositories/ICROMSMAIL/code/framework/yii-1.1.10.r3566/framework/web/CWebApplication.php(135): CWebApplication->runController('site/index-test...')
+#3 /home/fidel/repositories/ICROMSMAIL/code/framework/yii-1.1.10.r3566/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/fidel/repositories/ICROMSMAIL/code/icromsmail/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/index-test.php
+---
